@@ -160,7 +160,8 @@ export const products: Product[] = [
     rating: 4.7,
     reviewCount: 89,
     images: [
-      'https://images.unsplash.com/photo-1570194065650-d99fb4b38b15?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600&h=600&fit=crop',
       'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&h=600&fit=crop',
     ],
     shortDesc: 'Encapsulated retinol for gentle yet effective anti-aging.',
@@ -263,7 +264,7 @@ export const products: Product[] = [
     reviewCount: 112,
     images: [
       'https://images.unsplash.com/photo-1611930022073-b7a4ba5fcccd?w=600&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?w=600&h=600&fit=crop',
     ],
     shortDesc: 'Triple ceramide complex for ultimate barrier repair.',
     fullDesc: 'Restore and protect your skin barrier with our rich ceramide cream. Features a triple ceramide complex mimicking your skin\'s natural lipids. Perfect for compromised, dry, or sensitive skin.',
@@ -289,7 +290,7 @@ export const products: Product[] = [
     reviewCount: 145,
     images: [
       'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600&h=600&fit=crop',
-      'https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600&h=600&fit=crop',
+      'https://images.unsplash.com/photo-1629198688000-71f23e745b6e?w=600&h=600&fit=crop',
     ],
     shortDesc: 'Lightweight gel hydration for oily skin.',
     fullDesc: 'Get all the hydration without the heaviness. Our oil-free gel moisturizer absorbs instantly, leaving a matte finish perfect for oily and acne-prone skin. Packed with water-binding ingredients for lasting moisture.',
