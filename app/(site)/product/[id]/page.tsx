@@ -280,22 +280,22 @@ function ProductDetail({ product }: { product: Product }) {
 
         {/* Tabs */}
         <Tabs defaultValue="description" className="mt-16">
-          <TabsList className="w-full justify-start border-b bg-transparent p-0">
+          <TabsList className="w-full max-w-full overflow-x-auto flex-nowrap justify-start border-b bg-transparent p-0">
             <TabsTrigger
               value="description"
-              className="rounded-none border-b-2 border-transparent px-6 py-3 data-[state=active]:border-primary data-[state=active]:bg-transparent"
+              className="rounded-none border-b-2 border-transparent px-4 sm:px-6 py-3 shrink-0 data-[state=active]:border-primary data-[state=active]:bg-transparent"
             >
               Description
             </TabsTrigger>
             <TabsTrigger
               value="ingredients"
-              className="rounded-none border-b-2 border-transparent px-6 py-3 data-[state=active]:border-primary data-[state=active]:bg-transparent"
+              className="rounded-none border-b-2 border-transparent px-4 sm:px-6 py-3 shrink-0 data-[state=active]:border-primary data-[state=active]:bg-transparent"
             >
               Ingredients
             </TabsTrigger>
             <TabsTrigger
               value="reviews"
-              className="rounded-none border-b-2 border-transparent px-6 py-3 data-[state=active]:border-primary data-[state=active]:bg-transparent"
+              className="rounded-none border-b-2 border-transparent px-4 sm:px-6 py-3 shrink-0 data-[state=active]:border-primary data-[state=active]:bg-transparent"
             >
               Reviews ({product.reviewCount})
             </TabsTrigger>

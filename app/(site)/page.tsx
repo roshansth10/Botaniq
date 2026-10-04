@@ -498,16 +498,16 @@ export default function HomePage() {
               Subscribe for exclusive offers, skincare tips, and early access to
               new products. Get 10% off your first order.
             </p>
-            <form className="mx-auto mt-8 flex max-w-md gap-3">
+            <form className="mx-auto mt-8 flex flex-col sm:flex-row max-w-md gap-3 w-full">
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="flex-1 rounded-full border-0 bg-primary-foreground/10 px-6 py-3 text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary-foreground"
+                className="min-w-0 flex-1 w-full sm:w-auto rounded-full border-0 bg-primary-foreground/10 px-6 py-3 text-primary-foreground placeholder:text-primary-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary-foreground"
               />
               <Button
                 type="submit"
                 variant="secondary"
-                className="rounded-full px-8"
+                className="rounded-full px-8 w-full sm:w-auto shrink-0"
               >
                 Subscribe
               </Button>

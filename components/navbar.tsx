@@ -107,11 +107,11 @@ export function Navbar() {
           </div>
 
           {/* Actions */}
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2 shrink-0">
             <Button
               variant="ghost"
               size="icon"
-              className="h-10 w-10"
+              className="h-9 w-9 sm:h-10 sm:w-10 shrink-0"
               onClick={openSearch}
               aria-label="Search"
             >
@@ -122,7 +122,7 @@ export function Navbar() {
               <Button
                 variant="ghost"
                 size="icon"
-                className="relative h-10 w-10"
+                className="relative h-9 w-9 sm:h-10 sm:w-10 shrink-0"
                 aria-label="Wishlist"
               >
                 <Heart className="h-5 w-5" />
@@ -137,7 +137,7 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              className="relative h-10 w-10"
+              className="relative h-9 w-9 sm:h-10 sm:w-10 shrink-0"
               onClick={openCart}
               aria-label="Cart"
             >
@@ -154,7 +154,7 @@ export function Navbar() {
                 <Button
                   variant="ghost"
                   size="icon"
-                  className="h-10 w-10"
+                  className="h-9 w-9 sm:h-10 sm:w-10 shrink-0"
                   aria-label="Account"
                 >
                   <User className="h-5 w-5" />
@@ -193,7 +193,7 @@ export function Navbar() {
             <Button
               variant="ghost"
               size="icon"
-              className="h-10 w-10 lg:hidden"
+              className="h-9 w-9 sm:h-10 sm:w-10 shrink-0 lg:hidden"
               onClick={() => setIsMobileMenuOpen(true)}
               aria-label="Menu"
             >
@@ -219,7 +219,7 @@ export function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-              className="fixed bottom-0 right-0 top-0 z-50 w-80 bg-card p-6 shadow-xl lg:hidden"
+              className="fixed bottom-0 right-0 top-0 z-50 w-80 max-w-[calc(100vw-2rem)] bg-card p-6 shadow-xl lg:hidden"
             >
               <div className="flex items-center justify-between">
                 <span className="text-lg font-semibold">Menu</span>
